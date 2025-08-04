@@ -1,0 +1,8 @@
+2025-07-30 16:33:57,627 - root - INFO - Namespace(aggregator='last', backprop_every=1, bs=200, data='wikipedia', different_new_nodes=False, drop_out=0.1, dyrep=False, embedding_module='graph_attention', gpu=0, lr=0.0001, memory_dim=172, memory_update_at_end=False, memory_updater='gru', message_dim=100, message_function='identity', n_degree=10, n_epoch=50, n_head=2, n_layer=1, n_runs=10, node_dim=100, patience=5, prefix='tgn-attn', randomize_features=False, time_dim=100, uniform=False, use_destination_embedding_in_message=False, use_memory=True, use_source_embedding_in_message=False)
+2025-07-30 16:34:56,121 - root - INFO - num of training instances: 81029
+2025-07-30 16:34:56,601 - root - INFO - num of batches per epoch: 406
+2025-07-30 16:35:19,245 - root - INFO - start 0 epoch
+2025-07-30 19:30:55,103 - root - INFO - epoch: 0 took 10538.52s
+2025-07-30 19:30:55,579 - root - INFO - Epoch mean loss: 0.6789493920474217
+2025-07-30 19:30:57,145 - root - INFO - val auc: 0.9460972138855541, new node val auc: 0.946811168032787
+2025-07-30 19:30:59,153 - root - INFO - val ap: 0.9497588189861025, new node val ap: 0.951212895572442
